@@ -1,3 +1,7 @@
+* {
+    background-image: url(Brenda.jpg);
+}
+
 body {
     /* for when content have to be arranged side by side or stacked ontop of each other in the body,it must be told that its a container to flexible boxes */
     display: flex;
@@ -31,6 +35,12 @@ aside {
     /* to be sure that the user can scroll within your aside */
     overflow-y: auto;
 }
-header, footer {
+header {
+    width: 100%;
+    /* position and top to make the navbar stay at the top of the page even while scrolling */
+    position: sticky;
+    top: 0;
+}
+footer {
     width: 100%;
 }
