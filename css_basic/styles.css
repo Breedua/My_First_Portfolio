@@ -14,6 +14,7 @@ main {
     flex-direction: row;
     /* to ensure the main tag keeps automatic height and width */
     flex: auto;
+    width: 100%;
     
 }
 
@@ -29,4 +30,7 @@ aside {
     flex: 1;
     /* to be sure that the user can scroll within your aside */
     overflow-y: auto;
+}
+header, footer {
+    width: 100%;
 }
